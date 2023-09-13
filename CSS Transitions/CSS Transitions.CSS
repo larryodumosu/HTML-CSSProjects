@@ -1,0 +1,39 @@
+p {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    transition: 10s;
+}
+
+p:hover {
+    background-color: black;
+    border-radius: 50%;
+}
+
+#transitionspecifiedproperty {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(114, 50, 31);
+    transition: background-color 3s;
+}
+
+#transitionspecifiedproperty:hover {
+    background-color: black;
+    border-radius: 50%;
+}
+
+#transitiontimefucntion {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(114, 50, 31);
+    transition: backgroung-color 2s;
+}
+
+#transitiontimefunction {
+    transition-timing-function: ease-in;
+}
+
+#transitiontimefunction::hoover {
+    background-color: rgb(156, 139, 139);
+    border-radius: 50%;
+}

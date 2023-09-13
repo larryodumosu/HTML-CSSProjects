@@ -1,0 +1,19 @@
+h1 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline;
+}
+
+span {
+    background-color: beige;
+    border: 3px solid brown;
+}
+
+h {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(201, 201, 216);
+    border: 4px solid black;
+    margin: 50px;
+    display: inline-block;
+}

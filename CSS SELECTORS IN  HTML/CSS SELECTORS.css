@@ -1,0 +1,38 @@
+button:hover {
+    background-color: red;
+    color: rgba(217, 255, 0, 0.795);
+}
+
+button:active {
+    color: purple;
+    background: pink;
+}
+
+input:checked {
+    background-color: blue;
+    color: rgb(198, 255, 196);
+}
+
+h2+p {
+    background-color: green;
+}
+
+h1+p {
+    color: blue;
+}
+
+:nth-of-type(2) {
+    color: brown;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: azure;
+}
+
+h1+p {
+    background-color: red;
+}
